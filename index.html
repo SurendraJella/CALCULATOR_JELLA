@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h1 style="color: whitesmoke;">JELLA'S <br>CALCULATOR</h1>
+             <div class="frist">
+                <input type="text" id="display" disabled>
+                <div class="second">
+                    <button style="background-color: red;" onclick="restart()">C</button>
+                    <button style="background-color: orange;" onclick="backspace()">del</button>
+                    <button onclick="jella('.')" style="font-size: 32px; background-color: orange;">.</button>               
+                    <button onclick="calcute('/')" style="background-color: orange;">/</button>
+    
+                    <button onclick="jella('7')">7</button>
+                    <button onclick="jella('8')">8</button>
+                    <button onclick="jella('9')">9</button>
+                    <button onclick="calcute('*')" style="background-color: orange;">*</button>
+                    
+                    <button onclick="jella('4')">4</button>
+                    <button onclick="jella('5')">5</button>
+                    <button onclick="jella('6')">6</button>
+                    <button onclick="calcute('-')" style="background-color: orange;">-</button>
+                    
+                    <button onclick="jella('1')">1</button>
+                    <button onclick="jella('2')">2</button>
+                    <button onclick="jella('3')">3</button>
+                    <button onclick="calcute('+')"  style="background-color: orange;">+</button>
+                    
+                    <button onclick="jella('0')">0</button>
+                    <button onclick="jella('00')">00</button>
+                    <button onclick="surendra()" style="background-color: blue;">=</button>
+                    <button onclick="calcute('**')"  style="background-color: orange;">**</button>
+                </div>
+             </div>
+        </div>
+    
+    </center>
+    
+    <script src="script.js"></script>
+</body>
+</html>
