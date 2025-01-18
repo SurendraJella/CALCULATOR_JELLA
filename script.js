@@ -15,7 +15,7 @@ function jella(number){
     last=false;
 }
 function backspace(){
-    calculation = parseInt(calculation/10)
+    calculation = calculation.slice(0, -1);
     display.value = calculation;
 
 }
